@@ -1,0 +1,220 @@
+@font-face{
+    font-family: "roboto";
+    src: url("../assets/Roboto/Roboto-Regular.ttf")
+}
+@font-face{
+    font-family: "chilanka";
+    src: url("../assets/Chilanka-Regular.ttf")
+}
+@font-face{
+    font-family: "bellefair";
+    src: url("../assets/Bellefair-Regular.ttf")
+}
+@font-face{
+    font-family: "poppins";
+    src: url("../assets/Poppins-Medium.ttf")
+}
+
+body{
+    margin: 0;
+    background: #131313;
+}
+
+.navbar{
+    display: fixed;
+    overflow: hidden;
+    background: #131313;
+    width: 1156px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 86px;
+    top: 0;
+}
+.navbar_container{
+    display: fixed;
+    height: 30px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color:white;
+    font-family: chilanka;
+    font-weight: 400px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.centerLinkContainer{
+    position: absolute;
+    top: 0;
+    left: 25%;
+    right: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 40px;
+}
+.centerLinkContainer a{
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-family: roboto;
+}
+
+.rightLinkContainer {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: flex;
+    grid-gap: 25px;
+    justify-content: right;
+}
+.rightLinkContainer a{
+    color: rgba(255, 255, 255, 0.6);
+    font-family: roboto;
+    text-decoration: none;
+}
+
+.centerLinkContainer a:hover, .rightLinkContainer a:hover {
+    color: white;
+}
+
+.mainBody{
+    margin: 130px 20px;
+    color: white;
+    font-family: roboto
+}
+
+.hiro{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 1124px;
+    position: relative;
+    height: 362px;
+}
+section.content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    color: white;
+}
+.content h1{
+    font-size: 60px;
+    line-height: 68px;
+    margin-bottom: 15px;
+    margin-top: 7px;
+    font-family: bellefair;
+    font-weight: 400;
+}
+.tagline{
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 23px;
+}
+
+.buttonsContainer{
+    margin-top: 105px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    grid-gap: 19px;
+}
+
+.buttonsContainer .socmed:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 10px #D8AE8D;
+}
+
+.getStartedBtn{
+    /* div as button */
+    margin-left: 35px;
+    width: 172px;
+    height: 63px;
+    background-color: #D8AE8D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 15px;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22.5px;
+    font-family: poppins;
+}
+.getStartedBtn:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #D8AE8D;
+}
+
+section.picture{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    color: white;
+}
+section.picture img{
+    position: relative;
+    left: 22%
+}
+
+.footerContainer {
+    position: relative;
+    width: 1124px;
+    height: 12px;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+.footerContainer .text{
+    display: flex;
+    align-items: center;
+    grid-gap: 5px;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+}
+.footerContainer .side {
+    height: 18px;
+    width: 350px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: roboto;
+    weight: 400;
+    font-size: 18px;
+    grid-gap: 11px;
+}
+.footerContainer .side .bar{
+    width: 290px;
+    height: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerContainer .side .bar .left{
+    width: 50%;
+    height: inherit;
+    background-color: white;
+}
+.footerContainer .side .bar .right{
+    width: 50%;
+    height: inherit;
+    background-color: rgba(255,255,255,.6)
+}
