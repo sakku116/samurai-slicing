@@ -1,5 +1,5 @@
-# samurai web design
-html - css exercise. design by bang [andre rio]( https://github.com/andregans ).
+# samurai web design slicing
+html - css exercise. design by [andre rio]( https://github.com/andregans ).
 
 design:  https://dribbble.com/shots/16819840-Web-Design-Samurai
 
