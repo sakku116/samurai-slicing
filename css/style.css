@@ -14,6 +14,9 @@
     font-family: "poppins";
     src: url("../assets/Poppins-Medium.ttf")
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body{
     margin: 0;
@@ -21,22 +24,23 @@ body{
 }
 
 .navbar{
-    display: fixed;
+    position: fixed;
     overflow: hidden;
-    background: #131313;
+    background-color: #131313;
+    z-index: 2;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    box-shadow: 0px 0px 10px rgba(1,1,1,.5);
+}
+
+.navbar_container{
+    height: 30px;
+    position: relative;
     width: 1156px;
     margin-left: auto;
     margin-right: auto;
-    height: 86px;
-    top: 0;
-}
-.navbar_container{
-    display: fixed;
-    height: 30px;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    margin-top: 30px
 }
 
 .title{
@@ -86,7 +90,8 @@ body{
 }
 
 .mainBody{
-    margin: 130px 20px;
+    margin-top: 140px;
+    height: 1000px;
     color: white;
     font-family: roboto
 }
