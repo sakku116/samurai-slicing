@@ -201,7 +201,6 @@ section.picture img{
     justify-content: center;
     align-items: center;
     font-family: roboto;
-    weight: 400;
     font-size: 18px;
     grid-gap: 11px;
 }
